@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://kit.fontawesome.com/046226e894.js" crossorigin="anonymous"></script>
+
+   
+
+</head>
+<link rel="stylesheet" href="style.css">
+
+<body>
+    <div class="heading">
+        <h1 style="text-align: center;">Average .Inc</h1>
+    </div>
+    <h1> weather reports of your place</h1>
+
+    <div class="autoLocation">
+        <div class="left">
+            <h1 ><span class="cityName"></span> <span  class="temp"></span></h1>
+            <h1>AQI <span class="AQI"></span> </h1>
+            <h1>Min:<span id="mintemp"></span >,    Max:<span id="maxtemp"></span></h1>
+            <h1 ></h1>
+        </div>
+
+        <div class="middle">
+            <img src="Loading_icon.gif" class="banner" alt="">
+        </div>
+        <div class="right">
+            <h1>Cloud  -> <span class="cloud"></span></h1>
+            <h1>Humidity  -> <span class="humid"></span></h1>
+            <h1>pressure  -> <span class="pressure"></span></h1>
+            <h1>Wind speed  -> <span class="wind"></span></h1>
+        </div>
+        <div class="result">
+            <h1>In general ,<span class="status1"></span> and<span class="status2"> Polluted</span></h1>
+        </div>
+
+    </div>
+    <h1 style="text-align: center; text-decoration: wavy;">Add cities to compare weather at once</h1>
+    <div class="addTag">
+        <div class="array">
+
+        </div>
+        <div class="tags">
+            <input type="text" class="hey" placeholder="add tag and hit enter">
+        </div>
+    </div>
+    <div class="line" style="background-color: rgb(83, 235, 146); height:10px;"></div>
+
+
+    
+    <div class="display" id="hahagais">
+        
+        <div class="wrapper">
+
+            <h1><i class="fas fa-map-marker-alt"> <span class="location"></span> </i></h1>
+            <br> <img src="Loading_icon.gif"  class="banners" alt="status">
+            <h1>AQI<span class="aqio"></span></h1>
+            <h1><i class="fas fa-thermometer-three-quarters">:</i> <span class="temperature"></span></h1>
+            <div class="line"></div>
+           <h2 style="float:left; margin-left: 10px;"><i class="fas fa-cloud"> : </i><span class="cloudd"></span></h2>
+            <div class="line2"></div>
+           <h2 style="float:right; margin-right: 10px; transform: translateY(-35px);"> <i class="fas fa-tint"> : </i><span class="humiditi"></span></h2>
+        </div>
+       
+
+        
+
+
+
+    </div>
+</body>
+<script src="script.js"></script>
+
+</html>
